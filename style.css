@@ -1,0 +1,206 @@
+body{
+    background-image: url("../image/dark-blue-living-room-interior-with-cozy-luxury-armchair-3d-rendering_41470-4120.png");
+     background-repeat: no-repeat; 
+     /* background-size: 1320px 700px; */
+    overflow: hidden;
+    background-size: cover;
+} 
+
+.nav-items{
+    font-size: 20px;
+    /* justify-content: space-between; */
+    float:right;
+    position: relative;
+    top: -20px;
+    right: 100px;
+    color:#fff;  
+
+}
+.nav-item{
+    margin-left: 0px; 
+    margin-right: 30px;
+}
+.nav-item:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.underline{
+    position: relative;
+    top: 20px;
+    display: block;
+    height: 0px;
+    border: solid #fff;
+    border-width: 0.5px;
+    border-style: inset;
+} 
+
+/* 
+img[src="../image/icons8-phone-64.png"]{
+    color: #fff;
+} */
+
+.logo{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.fa-bar{
+    display: none; 
+    float: left;
+    margin-left: 360px;
+    margin-top: -30px;
+    width: 50px;
+}
+
+h1{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-right: 600px;
+}
+
+.top-subtext{
+    position: relative;
+    top: -120px;
+    left: 900px;
+    border: solid transparent;
+    background-color:#2F4252;
+    /* border-width: 20px; */
+    height: 100px;
+    margin-right: 85%;
+    /* opacity: 0.6; */
+    color: #fff;
+}
+
+.top-subtext p{
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.top-subtext img{
+    border: solid #fff;
+    width: 60px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.vertical{
+    position: relative;
+    top: -120px;
+    left: 950px; 
+    display: block;
+    height: 100px;
+    border: solid #fff;
+    border-width: 0.1px;
+    border-style: inset;
+    width: 0px;
+}
+.dot1{
+    position: relative;
+    border: solid #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    top: -130px;
+    margin-left: 945px;
+}
+
+.bottom-subtext{
+    position: relative;
+    top: -140px;
+    left: 550px;
+    border: solid transparent;
+    background-color:#2F4252;
+    /* border-width: 20px; */
+    height: 100px;
+    margin-right: 85%;
+
+    color: #fff;
+}
+
+.bottom-subtext p{
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bottom-subtext img{
+    border: solid #fff;
+    width: 60px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.horizontal{
+    position: relative;
+    top: -180px;
+    left: 735px;
+    display: block;
+    height: 0px;
+    border: solid #fff;
+    border-width: 0.1px;
+    border-style: inset;
+    width: 100px;
+}
+.dot2{
+    border: solid #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    margin-top: -190px;
+    margin-left: 836px;
+}
+
+button{
+     position: relative;
+    top: -25px; 
+    float: right;
+    margin-right: 180px;
+    border:solid #fff;
+    border-radius: 1.5em;
+    height: 50px;
+    width: 140px;
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    font-size: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    html,body{
+        margin: -10px;
+        padding: 50px 40px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .fa-bar{
+        display: block;
+        color: #fff;
+        float: left;
+       
+    }
+    h1{
+        font-size: 30px;
+        margin-top: 30px;
+       margin-left: 120px;
+       margin-right: 50px;
+    }
+    button{
+        background-color: black;
+        position: relative;
+        top: 30px;
+    }
+}
